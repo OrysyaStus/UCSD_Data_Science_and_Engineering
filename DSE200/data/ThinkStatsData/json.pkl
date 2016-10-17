@@ -1,0 +1,33 @@
+(dp0
+S'last name'
+p1
+S'Freund'
+p2
+sS'first name'
+p3
+S'Yoav'
+p4
+sS'speaks'
+p5
+(S'English'
+p6
+S'Hebrew'
+p7
+tp8
+sS'longList'
+p9
+S'shortList'
+p10
+sS'Research'
+p11
+(dp12
+S'Data Science'
+p13
+F2.1
+sS'bio-informatics'
+p14
+I3
+sS'Probability'
+p15
+I7
+ss.
