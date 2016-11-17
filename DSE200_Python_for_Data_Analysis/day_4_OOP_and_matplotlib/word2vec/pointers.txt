@@ -1,0 +1,12 @@
+To install gensim use:
+pip install gensim
+
+To get the full package, including jupyter notebooks, clone the repository:
+git clone https://github.com/RaRe-Technologies/gensim.git
+
+Good Explanation:
+https://code.google.com/archive/p/word2vec/
+
+
+
+
