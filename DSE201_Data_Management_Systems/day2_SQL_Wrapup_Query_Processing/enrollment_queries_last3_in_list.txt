@@ -1,0 +1,35 @@
+-- Verify that data has been inserted correctly 
+   (list contents of each table)
+
+
+-- Find first names and last names of all students
+
+
+-- Find all students whose first name is John 
+   (list all their attributes)
+
+
+-- Find the pid, name and MAS201 credits of students registered for MAS201
+
+
+-- Find the other classes taken by MAS201 students 
+   (list student name and class name)
+
+
+-- Find the other classes taken by students who take MAS201 
+   (list just the class names, uniquely)
+
+
+-- Find the MAS201 students who take a Friday 11:00am class
+
+
+-- Find the enrolled students and total credits for which they have registered 
+   (output student id, first and last name, and total credits)
+
+
+-- Find all students and total credits for which they have registered
+   (list same info as for enrolled students)
+
+-- Find students who take every class that John Smith takes
+   (list id, first and last name)
+   
