@@ -1,0 +1,7 @@
+Apart from that, Below are .csv files needed for queries. Please note that I have not included login,suggested video,watched video data as they are not used in query writing. The command to copy in pgadmin is :
+ 
+COPY <table_name> FROM <location in your computer> DELIMITER ',' CSV;
+ 
+As an example, I have included mine :
+ 
+COPY video FROM '/Users/swethakrishnakumar/Desktop/DSE201/video.csv' DELIMITER ',' CSV;
