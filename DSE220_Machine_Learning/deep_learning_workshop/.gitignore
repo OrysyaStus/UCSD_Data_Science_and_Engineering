@@ -1,0 +1,5 @@
+# Python
+*.py[cod]
+
+# iPython
+.ipynb_checkpoints/
