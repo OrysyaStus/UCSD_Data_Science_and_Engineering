@@ -9,7 +9,7 @@ class YearPlotter:
         self.months = MonthLocator(range(1, 13), bymonthday=1, interval=3)
         #self.i=0
 
-    def plot(self,T,fig,ax,label='',labels=None,title=None):
+    def plot(self,T,fig,ax,label='', xlabel = None, ylabel= None, labels=None,title=None):
         #print self.i,'fig=',fig,'ax=',ax
         #self.i+=1
         shp=shape(T)
@@ -28,8 +28,11 @@ class YearPlotter:
         ax.xaxis.set_major_formatter(self.monthsFmt)
         if not title is None:
             ax.set_title(title)
+        if not xlabel is None:
+            ax.set_xlabel(xlabel)
+        if not ylabel is None:
+            ax.set_ylabel(ylabel)
         #rotate and align the tick labels so they look better
         fig.autofmt_xdate()
         ax.grid()
         ax.legend()
-        
