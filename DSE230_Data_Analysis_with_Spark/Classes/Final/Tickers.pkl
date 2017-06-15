@@ -1,0 +1,4187 @@
+(dp0
+S'TickerInfo'
+p1
+ccopy_reg
+_reconstructor
+p2
+(cpandas.core.frame
+DataFrame
+p3
+c__builtin__
+object
+p4
+Ntp5
+Rp6
+(dp7
+S'_metadata'
+p8
+(lp9
+sS'_typ'
+p10
+S'dataframe'
+p11
+sS'_data'
+p12
+g2
+(cpandas.core.internals
+BlockManager
+p13
+g4
+Ntp14
+Rp15
+((lp16
+cpandas.core.indexes.base
+_new_Index
+p17
+(cpandas.core.indexes.base
+Index
+p18
+(dp19
+S'data'
+p20
+cnumpy.core.multiarray
+_reconstruct
+p21
+(cnumpy
+ndarray
+p22
+(I0
+tp23
+S'b'
+p24
+tp25
+Rp26
+(I1
+(I4
+tp27
+cnumpy
+dtype
+p28
+(S'O8'
+p29
+I0
+I1
+tp30
+Rp31
+(I3
+S'|'
+p32
+NNNI-1
+I-1
+I63
+tp33
+bI00
+(lp34
+S'Ticker'
+p35
+aS'Name'
+p36
+aS'Sector'
+p37
+aS'SECTOR_ID'
+p38
+atp39
+bsS'name'
+p40
+Nstp41
+Rp42
+ag17
+(cpandas.core.indexes.range
+RangeIndex
+p43
+(dp44
+S'start'
+p45
+I0
+sS'step'
+p46
+I1
+sS'stop'
+p47
+I505
+sg40
+Nstp48
+Rp49
+a(lp50
+g21
+(g22
+(I0
+tp51
+g24
+tp52
+Rp53
+(I1
+(I4
+I505
+tp54
+g31
+I00
+(lp55
+S'MMM'
+p56
+aS'ABT'
+p57
+aS'ABBV'
+p58
+aS'ACN'
+p59
+aS'ATVI'
+p60
+aS'AYI'
+p61
+aS'ADBE'
+p62
+aS'AMD'
+p63
+aS'AAP'
+p64
+aS'AES'
+p65
+aS'AET'
+p66
+aS'AMG'
+p67
+aS'AFL'
+p68
+aS'A'
+p69
+aS'APD'
+p70
+aS'AKAM'
+p71
+aS'ALK'
+p72
+aS'ALB'
+p73
+aS'ARE'
+p74
+aS'ALXN'
+p75
+aS'ALLE'
+p76
+aS'AGN'
+p77
+aS'ADS'
+p78
+aS'LNT'
+p79
+aS'ALL'
+p80
+aS'GOOGL'
+p81
+aS'GOOG'
+p82
+aS'MO'
+p83
+aS'AMZN'
+p84
+aS'AEE'
+p85
+aS'AAL'
+p86
+aS'AEP'
+p87
+aS'AXP'
+p88
+aS'AIG'
+p89
+aS'AMT'
+p90
+aS'AWK'
+p91
+aS'AMP'
+p92
+aS'ABC'
+p93
+aS'AME'
+p94
+aS'AMGN'
+p95
+aS'APH'
+p96
+aS'APC'
+p97
+aS'ADI'
+p98
+aS'ANTM'
+p99
+aS'AON'
+p100
+aS'APA'
+p101
+aS'AIV'
+p102
+aS'AAPL'
+p103
+aS'AMAT'
+p104
+aS'ADM'
+p105
+aS'ARNC'
+p106
+aS'AJG'
+p107
+aS'AIZ'
+p108
+aS'T'
+p109
+aS'ADSK'
+p110
+aS'ADP'
+p111
+aS'AN'
+p112
+aS'AZO'
+p113
+aS'AVB'
+p114
+aS'AVY'
+p115
+aS'BHI'
+p116
+aS'BLL'
+p117
+aS'BAC'
+p118
+aS'BK'
+p119
+aS'BCR'
+p120
+aS'BAX'
+p121
+aS'BBT'
+p122
+aS'BDX'
+p123
+aS'BBBY'
+p124
+aS'BRK.B'
+p125
+aS'BBY'
+p126
+aS'BIIB'
+p127
+aS'BLK'
+p128
+aS'HRB'
+p129
+aS'BA'
+p130
+aS'BWA'
+p131
+aS'BXP'
+p132
+aS'BSX'
+p133
+aS'BMY'
+p134
+aS'AVGO'
+p135
+aS'BF.B'
+p136
+aS'CHRW'
+p137
+aS'CA'
+p138
+aS'COG'
+p139
+aS'CPB'
+p140
+aS'COF'
+p141
+aS'CAH'
+p142
+aS'CBOE'
+p143
+aS'KMX'
+p144
+aS'CCL'
+p145
+aS'CAT'
+p146
+aS'CBG'
+p147
+aS'CBS'
+p148
+aS'CELG'
+p149
+aS'CNC'
+p150
+aS'CNP'
+p151
+aS'CTL'
+p152
+aS'CERN'
+p153
+aS'CF'
+p154
+aS'SCHW'
+p155
+aS'CHTR'
+p156
+aS'CHK'
+p157
+aS'CVX'
+p158
+aS'CMG'
+p159
+aS'CB'
+p160
+aS'CHD'
+p161
+aS'CI'
+p162
+aS'XEC'
+p163
+aS'CINF'
+p164
+aS'CTAS'
+p165
+aS'CSCO'
+p166
+aS'C'
+p167
+aS'CFG'
+p168
+aS'CTXS'
+p169
+aS'CLX'
+p170
+aS'CME'
+p171
+aS'CMS'
+p172
+aS'COH'
+p173
+aS'KO'
+p174
+aS'CTSH'
+p175
+aS'CL'
+p176
+aS'CMCSA'
+p177
+aS'CMA'
+p178
+aS'CAG'
+p179
+aS'CXO'
+p180
+aS'COP'
+p181
+aS'ED'
+p182
+aS'STZ'
+p183
+aS'COO'
+p184
+aS'GLW'
+p185
+aS'COST'
+p186
+aS'COTY'
+p187
+aS'CCI'
+p188
+aS'CSRA'
+p189
+aS'CSX'
+p190
+aS'CMI'
+p191
+aS'CVS'
+p192
+aS'DHI'
+p193
+aS'DHR'
+p194
+aS'DRI'
+p195
+aS'DVA'
+p196
+aS'DE'
+p197
+aS'DLPH'
+p198
+aS'DAL'
+p199
+aS'XRAY'
+p200
+aS'DVN'
+p201
+aS'DLR'
+p202
+aS'DFS'
+p203
+aS'DISCA'
+p204
+aS'DISCK'
+p205
+aS'DISH'
+p206
+aS'DG'
+p207
+aS'DLTR'
+p208
+aS'D'
+p209
+aS'DOV'
+p210
+aS'DOW'
+p211
+aS'DPS'
+p212
+aS'DTE'
+p213
+aS'DD'
+p214
+aS'DUK'
+p215
+aS'DXC'
+p216
+aS'ETFC'
+p217
+aS'EMN'
+p218
+aS'ETN'
+p219
+aS'EBAY'
+p220
+aS'ECL'
+p221
+aS'EIX'
+p222
+aS'EW'
+p223
+aS'EA'
+p224
+aS'EMR'
+p225
+aS'ETR'
+p226
+aS'EVHC'
+p227
+aS'EOG'
+p228
+aS'EQT'
+p229
+aS'EFX'
+p230
+aS'EQIX'
+p231
+aS'EQR'
+p232
+aS'ESS'
+p233
+aS'EL'
+p234
+aS'ES'
+p235
+aS'EXC'
+p236
+aS'EXPE'
+p237
+aS'EXPD'
+p238
+aS'ESRX'
+p239
+aS'EXR'
+p240
+aS'XOM'
+p241
+aS'FFIV'
+p242
+aS'FB'
+p243
+aS'FAST'
+p244
+aS'FRT'
+p245
+aS'FDX'
+p246
+aS'FIS'
+p247
+aS'FITB'
+p248
+aS'FE'
+p249
+aS'FISV'
+p250
+aS'FLIR'
+p251
+aS'FLS'
+p252
+aS'FLR'
+p253
+aS'FMC'
+p254
+aS'FL'
+p255
+aS'F'
+p256
+aS'FTV'
+p257
+aS'FBHS'
+p258
+aS'BEN'
+p259
+aS'FCX'
+p260
+aS'GPS'
+p261
+aS'GRMN'
+p262
+aS'IT'
+p263
+aS'GD'
+p264
+aS'GE'
+p265
+aS'GGP'
+p266
+aS'GIS'
+p267
+aS'GM'
+p268
+aS'GPC'
+p269
+aS'GILD'
+p270
+aS'GPN'
+p271
+aS'GS'
+p272
+aS'GT'
+p273
+aS'GWW'
+p274
+aS'HAL'
+p275
+aS'HBI'
+p276
+aS'HOG'
+p277
+aS'HRS'
+p278
+aS'HIG'
+p279
+aS'HAS'
+p280
+aS'HCA'
+p281
+aS'HCP'
+p282
+aS'HP'
+p283
+aS'HSIC'
+p284
+aS'HSY'
+p285
+aS'HES'
+p286
+aS'HPE'
+p287
+aS'HOLX'
+p288
+aS'HD'
+p289
+aS'HON'
+p290
+aS'HRL'
+p291
+aS'HST'
+p292
+aS'HPQ'
+p293
+aS'HUM'
+p294
+aS'HBAN'
+p295
+aS'IDXX'
+p296
+aS'INFO'
+p297
+aS'ITW'
+p298
+aS'ILMN'
+p299
+aS'IR'
+p300
+aS'INTC'
+p301
+aS'ICE'
+p302
+aS'IBM'
+p303
+aS'INCY'
+p304
+aS'IP'
+p305
+aS'IPG'
+p306
+aS'IFF'
+p307
+aS'INTU'
+p308
+aS'ISRG'
+p309
+aS'IVZ'
+p310
+aS'IRM'
+p311
+aS'JEC'
+p312
+aS'JBHT'
+p313
+aS'SJM'
+p314
+aS'JNJ'
+p315
+aS'JCI'
+p316
+aS'JPM'
+p317
+aS'JNPR'
+p318
+aS'KSU'
+p319
+aS'K'
+p320
+aS'KEY'
+p321
+aS'KMB'
+p322
+aS'KIM'
+p323
+aS'KMI'
+p324
+aS'KLAC'
+p325
+aS'KSS'
+p326
+aS'KHC'
+p327
+aS'KR'
+p328
+aS'LB'
+p329
+aS'LLL'
+p330
+aS'LH'
+p331
+aS'LRCX'
+p332
+aS'LEG'
+p333
+aS'LEN'
+p334
+aS'LVLT'
+p335
+aS'LUK'
+p336
+aS'LLY'
+p337
+aS'LNC'
+p338
+aS'LKQ'
+p339
+aS'LMT'
+p340
+aS'L'
+p341
+aS'LOW'
+p342
+aS'LYB'
+p343
+aS'MTB'
+p344
+aS'MAC'
+p345
+aS'M'
+p346
+aS'MNK'
+p347
+aS'MRO'
+p348
+aS'MPC'
+p349
+aS'MAR'
+p350
+aS'MMC'
+p351
+aS'MLM'
+p352
+aS'MAS'
+p353
+aS'MA'
+p354
+aS'MAT'
+p355
+aS'MKC'
+p356
+aS'MCD'
+p357
+aS'MCK'
+p358
+aS'MJN'
+p359
+aS'MDT'
+p360
+aS'MRK'
+p361
+aS'MET'
+p362
+aS'MTD'
+p363
+aS'KORS'
+p364
+aS'MCHP'
+p365
+aS'MU'
+p366
+aS'MSFT'
+p367
+aS'MAA'
+p368
+aS'MHK'
+p369
+aS'TAP'
+p370
+aS'MDLZ'
+p371
+aS'MON'
+p372
+aS'MNST'
+p373
+aS'MCO'
+p374
+aS'MS'
+p375
+aS'MOS'
+p376
+aS'MSI'
+p377
+aS'MUR'
+p378
+aS'MYL'
+p379
+aS'NDAQ'
+p380
+aS'NOV'
+p381
+aS'NAVI'
+p382
+aS'NTAP'
+p383
+aS'NFLX'
+p384
+aS'NWL'
+p385
+aS'NFX'
+p386
+aS'NEM'
+p387
+aS'NWSA'
+p388
+aS'NWS'
+p389
+aS'NEE'
+p390
+aS'NLSN'
+p391
+aS'NKE'
+p392
+aS'NI'
+p393
+aS'NBL'
+p394
+aS'JWN'
+p395
+aS'NSC'
+p396
+aS'NTRS'
+p397
+aS'NOC'
+p398
+aS'NRG'
+p399
+aS'NUE'
+p400
+aS'NVDA'
+p401
+aS'ORLY'
+p402
+aS'OXY'
+p403
+aS'OMC'
+p404
+aS'OKE'
+p405
+aS'ORCL'
+p406
+aS'PCAR'
+p407
+aS'PH'
+p408
+aS'PDCO'
+p409
+aS'PAYX'
+p410
+aS'PYPL'
+p411
+aS'PNR'
+p412
+aS'PBCT'
+p413
+aS'PEP'
+p414
+aS'PKI'
+p415
+aS'PRGO'
+p416
+aS'PFE'
+p417
+aS'PCG'
+p418
+aS'PM'
+p419
+aS'PSX'
+p420
+aS'PNW'
+p421
+aS'PXD'
+p422
+aS'PNC'
+p423
+aS'RL'
+p424
+aS'PPG'
+p425
+aS'PPL'
+p426
+aS'PX'
+p427
+aS'PCLN'
+p428
+aS'PFG'
+p429
+aS'PG'
+p430
+aS'PGR'
+p431
+aS'PLD'
+p432
+aS'PRU'
+p433
+aS'PEG'
+p434
+aS'PSA'
+p435
+aS'PHM'
+p436
+aS'PVH'
+p437
+aS'QRVO'
+p438
+aS'PWR'
+p439
+aS'QCOM'
+p440
+aS'DGX'
+p441
+aS'RRC'
+p442
+aS'RJF'
+p443
+aS'RTN'
+p444
+aS'O'
+p445
+aS'RHT'
+p446
+aS'REG'
+p447
+aS'REGN'
+p448
+aS'RF'
+p449
+aS'RSG'
+p450
+aS'RAI'
+p451
+aS'RHI'
+p452
+aS'ROK'
+p453
+aS'COL'
+p454
+aS'ROP'
+p455
+aS'ROST'
+p456
+aS'RCL'
+p457
+aS'R'
+p458
+aS'CRM'
+p459
+aS'SCG'
+p460
+aS'SLB'
+p461
+aS'SNI'
+p462
+aS'STX'
+p463
+aS'SEE'
+p464
+aS'SRE'
+p465
+aS'SHW'
+p466
+aS'SIG'
+p467
+aS'SPG'
+p468
+aS'SWKS'
+p469
+aS'SLG'
+p470
+aS'SNA'
+p471
+aS'SO'
+p472
+aS'LUV'
+p473
+aS'SPGI'
+p474
+aS'SWK'
+p475
+aS'SPLS'
+p476
+aS'SBUX'
+p477
+aS'STT'
+p478
+aS'SRCL'
+p479
+aS'SYK'
+p480
+aS'STI'
+p481
+aS'SYMC'
+p482
+aS'SYF'
+p483
+aS'SNPS'
+p484
+aS'SYY'
+p485
+aS'TROW'
+p486
+aS'TGT'
+p487
+aS'TEL'
+p488
+aS'FTI'
+p489
+aS'TDC'
+p490
+aS'TSO'
+p491
+aS'TXN'
+p492
+aS'TXT'
+p493
+aS'TMO'
+p494
+aS'TIF'
+p495
+aS'TWX'
+p496
+aS'TJX'
+p497
+aS'TMK'
+p498
+aS'TSS'
+p499
+aS'TSCO'
+p500
+aS'TDG'
+p501
+aS'RIG'
+p502
+aS'TRV'
+p503
+aS'TRIP'
+p504
+aS'FOXA'
+p505
+aS'FOX'
+p506
+aS'TSN'
+p507
+aS'UDR'
+p508
+aS'ULTA'
+p509
+aS'USB'
+p510
+aS'UA'
+p511
+aS'UAA'
+p512
+aS'UNP'
+p513
+aS'UAL'
+p514
+aS'UNH'
+p515
+aS'UPS'
+p516
+aS'URI'
+p517
+aS'UTX'
+p518
+aS'UHS'
+p519
+aS'UNM'
+p520
+aS'VFC'
+p521
+aS'VLO'
+p522
+aS'VAR'
+p523
+aS'VTR'
+p524
+aS'VRSN'
+p525
+aS'VRSK'
+p526
+aS'VZ'
+p527
+aS'VRTX'
+p528
+aS'VIAB'
+p529
+aS'V'
+p530
+aS'VNO'
+p531
+aS'VMC'
+p532
+aS'WMT'
+p533
+aS'WBA'
+p534
+aS'DIS'
+p535
+aS'WM'
+p536
+aS'WAT'
+p537
+aS'WEC'
+p538
+aS'WFC'
+p539
+aS'HCN'
+p540
+aS'WDC'
+p541
+aS'WU'
+p542
+aS'WRK'
+p543
+aS'WY'
+p544
+aS'WHR'
+p545
+aS'WFM'
+p546
+aS'WMB'
+p547
+aS'WLTW'
+p548
+aS'WYN'
+p549
+aS'WYNN'
+p550
+aS'XEL'
+p551
+aS'XRX'
+p552
+aS'XLNX'
+p553
+aS'XL'
+p554
+aS'XYL'
+p555
+aS'YHOO'
+p556
+aS'YUM'
+p557
+aS'ZBH'
+p558
+aS'ZION'
+p559
+aS'ZTS'
+p560
+aS'3M|3M Company'
+p561
+aS'Abbott Laboratories'
+p562
+aS'AbbVie Inc.'
+p563
+aS'Accenture plc'
+p564
+aS'Activision Blizzard'
+p565
+aS'Acuity Brands Inc'
+p566
+aS'Adobe Systems Inc'
+p567
+aS'Advanced Micro Devices Inc'
+p568
+aS'Advance Auto Parts'
+p569
+aS'AES Corp'
+p570
+aS'Aetna Inc'
+p571
+aS'Affiliated Managers Group Inc'
+p572
+aS'AFLAC Inc'
+p573
+aS'Agilent Technologies Inc'
+p574
+aS'Air Products & Chemicals Inc'
+p575
+aS'Akamai Technologies Inc'
+p576
+aS'Alaska Air Group Inc'
+p577
+aS'Albemarle Corp'
+p578
+aS'Alexandria Real Estate Equities Inc'
+p579
+aS'Alexion Pharmaceuticals'
+p580
+aS'Allegion'
+p581
+aS'Allergan, Plc'
+p582
+aS'Alliance Data Systems'
+p583
+aS'Alliant Energy Corp'
+p584
+aS'Allstate Corp'
+p585
+aS'Alphabet Inc.|Alphabet Inc Class A'
+p586
+aS'Alphabet Inc.|Alphabet Inc Class C'
+p587
+aS'Altria Group Inc'
+p588
+aS'Amazon.com Inc'
+p589
+aS'Ameren Corp'
+p590
+aS'American Airlines Group'
+p591
+aS'American Electric Power'
+p592
+aS'American Express Co'
+p593
+aS'American International Group|American International Group, Inc.'
+p594
+aS'American Tower Corp A'
+p595
+aS'American Water Works|American Water Works Company Inc'
+p596
+aS'Ameriprise Financial'
+p597
+aS'AmerisourceBergen Corp'
+p598
+aS'Ametek|AMETEK Inc'
+p599
+aS'Amgen Inc'
+p600
+aS'Amphenol|Amphenol Corp'
+p601
+aS'Anadarko Petroleum|Anadarko Petroleum Corp'
+p602
+aS'Analog Devices|Analog Devices, Inc.'
+p603
+aS'Anthem Inc.'
+p604
+aS'Aon plc'
+p605
+aS'Apache Corporation'
+p606
+aS'Apartment Investment & Management'
+p607
+aS'Apple Inc.'
+p608
+aS'Applied Materials Inc'
+p609
+aS'Archer-Daniels-Midland Co'
+p610
+aS'Arconic Inc'
+p611
+aS'Arthur J. Gallagher & Co.'
+p612
+aS'Assurant Inc'
+p613
+aS'AT&T Inc'
+p614
+aS'Autodesk Inc'
+p615
+aS'Automatic Data Processing'
+p616
+aS'AutoNation Inc'
+p617
+aS'AutoZone Inc'
+p618
+aS'AvalonBay Communities, Inc.'
+p619
+aS'Avery Dennison Corp'
+p620
+aS'Baker Hughes Inc'
+p621
+aS'Ball Corp'
+p622
+aS'Bank of America Corp'
+p623
+aS'The Bank of New York Mellon Corp.'
+p624
+aS'Bard (C.R.) Inc.'
+p625
+aS'Baxter International Inc.'
+p626
+aS'BB&T Corporation'
+p627
+aS'Becton Dickinson'
+p628
+aS'Bed Bath & Beyond'
+p629
+aS'Berkshire Hathaway'
+p630
+aS'Best Buy Co. Inc.'
+p631
+aS'Biogen Inc.'
+p632
+aS'BlackRock'
+p633
+aS'Block H&R'
+p634
+aS'Boeing Company'
+p635
+aS'BorgWarner'
+p636
+aS'Boston Properties'
+p637
+aS'Boston Scientific'
+p638
+aS'Bristol-Myers Squibb'
+p639
+aS'Broadcom Limited|Broadcom'
+p640
+aS'Brown-Forman Corp.'
+p641
+aS'C. H. Robinson Worldwide'
+p642
+aS'CA, Inc.'
+p643
+aS'Cabot Oil & Gas'
+p644
+aS'Campbell Soup'
+p645
+aS'Capital One Financial'
+p646
+aS'Cardinal Health'
+p647
+aS'Cboe Holdings|CBOE Holdings'
+p648
+aS'Carmax Inc'
+p649
+aS'Carnival Corp.'
+p650
+aS'Caterpillar Inc.'
+p651
+aS'CBRE Group'
+p652
+aS'CBS Corp.'
+p653
+aS'Celgene Corp.'
+p654
+aS'Centene Corporation'
+p655
+aS'CenterPoint Energy'
+p656
+aS'CenturyLink Inc'
+p657
+aS'Cerner'
+p658
+aS'CF Industries Holdings Inc'
+p659
+aS'Charles Schwab Corporation'
+p660
+aS'Charter Communications'
+p661
+aS'Chesapeake Energy'
+p662
+aS'Chevron Corp.'
+p663
+aS'Chipotle Mexican Grill'
+p664
+aS'Chubb Limited'
+p665
+aS'Church & Dwight'
+p666
+aS'CIGNA Corp.'
+p667
+aS'Cimarex Energy'
+p668
+aS'Cincinnati Financial'
+p669
+aS'Cintas Corporation'
+p670
+aS'Cisco Systems'
+p671
+aS'Citigroup Inc.'
+p672
+aS'Citizens Financial Group'
+p673
+aS'Citrix Systems'
+p674
+aS'The Clorox Company'
+p675
+aS'CME Group Inc.'
+p676
+aS'CMS Energy'
+p677
+aS'Coach Inc.'
+p678
+aS'Coca-Cola Company'
+p679
+aS'Cognizant Technology Solutions'
+p680
+aS'Colgate-Palmolive'
+p681
+aS'Comcast Corp.'
+p682
+aS'Comerica Inc.'
+p683
+aS'Conagra Brands'
+p684
+aS'Concho Resources'
+p685
+aS'ConocoPhillips'
+p686
+aS'Consolidated Edison'
+p687
+aS'Constellation Brands'
+p688
+aS'The Cooper Companies'
+p689
+aS'Corning Inc.'
+p690
+aS'Costco Wholesale Corp.'
+p691
+aS'Coty, Inc'
+p692
+aS'Crown Castle International Corp.'
+p693
+aS'CSRA (IT services company)|CSRA Inc.'
+p694
+aS'CSX Corp.'
+p695
+aS'Cummins Inc.'
+p696
+aS'CVS Health'
+p697
+aS'D. R. Horton'
+p698
+aS'Danaher Corp.'
+p699
+aS'Darden Restaurants'
+p700
+aS'DaVita'
+p701
+aS'Deere & Co.'
+p702
+aS'Delphi Automotive'
+p703
+aS'Delta Air Lines'
+p704
+aS'Dentsply Sirona'
+p705
+aS'Devon Energy'
+p706
+aS'Digital Realty'
+p707
+aS'Discover Financial Services'
+p708
+aS'Discovery Communications'
+p709
+ag709
+aS'Dish Network'
+p710
+aS'Dollar General'
+p711
+aS'Dollar Tree'
+p712
+aS'Dominion Resources'
+p713
+aS'Dover Corp.'
+p714
+aS'Dow Chemical'
+p715
+aS'Dr Pepper Snapple Group'
+p716
+aS'DTE Energy'
+p717
+aS'Du Pont (E.I.)'
+p718
+aS'Duke Energy'
+p719
+aS'DXC Technology'
+p720
+aS'E*Trade'
+p721
+aS'Eastman Chemical'
+p722
+aS'Eaton Corporation'
+p723
+aS'eBay'
+p724
+aS'Ecolab'
+p725
+aS"Edison Int'l"
+p726
+aS'Edwards Lifesciences'
+p727
+aS'Electronic Arts'
+p728
+aS'Emerson Electric Company'
+p729
+aS'Entergy Corp.'
+p730
+aS'Envision Healthcare'
+p731
+aS'EOG Resources'
+p732
+aS'EQT Corporation'
+p733
+aS'Equifax Inc.'
+p734
+aS'Equinix'
+p735
+aS'Equity Residential'
+p736
+aS'Essex Property Trust, Inc.'
+p737
+aS'Estee Lauder Cos.'
+p738
+aS'Eversource Energy'
+p739
+aS'Exelon Corp.'
+p740
+aS'Expedia Inc.'
+p741
+aS'Expeditors International'
+p742
+aS'Express Scripts'
+p743
+aS'Extra Space Storage'
+p744
+aS'Exxon Mobil Corp.'
+p745
+aS'F5 Networks'
+p746
+aS'Facebook, Inc.'
+p747
+aS'Fastenal Co'
+p748
+aS'Federal Realty Investment Trust'
+p749
+aS'FedEx Corporation'
+p750
+aS'Fidelity National Information Services'
+p751
+aS'Fifth Third Bancorp'
+p752
+aS'FirstEnergy Corp'
+p753
+aS'Fiserv Inc'
+p754
+aS'FLIR Systems'
+p755
+aS'Flowserve Corporation'
+p756
+aS'Fluor Corp.'
+p757
+aS'FMC Corporation'
+p758
+aS'Foot Locker Inc'
+p759
+aS'Ford Motor'
+p760
+aS'Fortive Corp'
+p761
+aS'Fortune Brands Home & Security'
+p762
+aS'Franklin Resources'
+p763
+aS'Freeport-McMoRan Inc.'
+p764
+aS'Gap Inc.'
+p765
+aS'Garmin Ltd.'
+p766
+aS'Gartner|Gartner Inc'
+p767
+aS'General Dynamics'
+p768
+aS'General Electric'
+p769
+aS'General Growth Properties Inc.'
+p770
+aS'General Mills'
+p771
+aS'General Motors'
+p772
+aS'Genuine Parts'
+p773
+aS'Gilead Sciences'
+p774
+aS'Heartland Payment Systems|Global Payments Inc'
+p775
+aS'Goldman Sachs Group'
+p776
+aS'Goodyear Tire & Rubber'
+p777
+aS'Grainger (W.W.) Inc.'
+p778
+aS'Halliburton Co.'
+p779
+aS'Hanesbrands Inc'
+p780
+aS'Harley-Davidson'
+p781
+aS'Harris Corporation'
+p782
+aS'Hartford Financial Svc.Gp.'
+p783
+aS'Hasbro Inc.'
+p784
+aS'HCA Holdings'
+p785
+aS'HCP Inc.'
+p786
+aS'Helmerich & Payne'
+p787
+aS'Henry Schein'
+p788
+aS'The Hershey Company'
+p789
+aS'Hess Corporation'
+p790
+aS'Hewlett Packard Enterprise'
+p791
+aS'Hologic'
+p792
+aS'Home Depot'
+p793
+aS"Honeywell Int'l Inc."
+p794
+aS'Hormel Foods Corp.'
+p795
+aS'Host Hotels & Resorts'
+p796
+aS'HP Inc.'
+p797
+aS'Humana Inc.'
+p798
+aS'Huntington Bancshares'
+p799
+aS'Idexx Laboratories|IDEXX Laboratories'
+p800
+aS'IHS Markit|IHS Markit Ltd.'
+p801
+aS'Illinois Tool Works'
+p802
+aS'Illumina (company)|Illumina Inc'
+p803
+aS'Ingersoll-Rand PLC'
+p804
+aS'Intel Corp.'
+p805
+aS'Intercontinental Exchange'
+p806
+aS'IBM|International Business Machines'
+p807
+aS'Incyte'
+p808
+aS'International Paper'
+p809
+aS'Interpublic Group'
+p810
+aS'Intl Flavors & Fragrances'
+p811
+aS'Intuit'
+p812
+aS'Intuitive Surgical Inc.'
+p813
+aS'Invesco Ltd.'
+p814
+aS'Iron Mountain Incorporated'
+p815
+aS'Jacobs Engineering Group'
+p816
+aS'J. B. Hunt Transport Services'
+p817
+aS'JM Smucker'
+p818
+aS'Johnson & Johnson'
+p819
+aS'Johnson Controls|Johnson Controls International'
+p820
+aS'JPMorgan Chase & Co.'
+p821
+aS'Juniper Networks'
+p822
+aS'Kansas City Southern (company)|Kansas City Southern'
+p823
+aS'Kellogg Co.'
+p824
+aS'KeyCorp'
+p825
+aS'Kimberly-Clark'
+p826
+aS'Kimco Realty'
+p827
+aS'Kinder Morgan'
+p828
+aS'KLA-Tencor Corp.'
+p829
+aS"Kohl's"
+p830
+aS'Kraft Heinz'
+p831
+aS'Kroger Co.'
+p832
+aS'L Brands Inc.'
+p833
+aS'L-3 Communications Holdings'
+p834
+aS'Laboratory Corp. of America Holding'
+p835
+aS'Lam Research'
+p836
+aS'Leggett & Platt'
+p837
+aS'Lennar Corp.'
+p838
+aS'Level 3 Communications'
+p839
+aS'Leucadia National Corp.'
+p840
+aS'Lilly (Eli) & Co.'
+p841
+aS'Lincoln National'
+p842
+aS'LKQ Corporation'
+p843
+aS'Lockheed Martin Corp.'
+p844
+aS'Loews Corp.'
+p845
+aS"Lowe's Cos."
+p846
+aS'LyondellBasell'
+p847
+aS'M&T Bank Corp.'
+p848
+aS'Macerich'
+p849
+aS"Macy's Inc."
+p850
+aS'Mallinckrodt Plc'
+p851
+aS'Marathon Oil Corp.'
+p852
+aS'Marathon Petroleum'
+p853
+aS"Marriott Int'l."
+p854
+aS'Marsh & McLennan'
+p855
+aS'Martin Marietta Materials'
+p856
+aS'Masco Corp.'
+p857
+aS'Mastercard Inc.'
+p858
+aS'Mattel Inc.'
+p859
+aS'McCormick & Co.'
+p860
+aS"McDonald's Corp."
+p861
+aS'McKesson Corp.'
+p862
+aS'Mead Johnson'
+p863
+aS'Medtronic plc'
+p864
+aS'Merck & Co.'
+p865
+aS'MetLife Inc.'
+p866
+aS'Mettler Toledo'
+p867
+aS'Michael Kors (brand)|Michael Kors Holdings'
+p868
+aS'Microchip Technology'
+p869
+aS'Micron Technology'
+p870
+aS'Microsoft Corp.'
+p871
+aS'Mid-America Apartments'
+p872
+aS'Mohawk Industries'
+p873
+aS'Molson Coors Brewing Company'
+p874
+aS'Mondelez|Mondelez International'
+p875
+aS'Monsanto Co.'
+p876
+aS'Monster Beverage'
+p877
+aS"Moody's Corp"
+p878
+aS'Morgan Stanley'
+p879
+aS'The Mosaic Company'
+p880
+aS'Motorola Solutions Inc.'
+p881
+aS'Murphy Oil'
+p882
+aS'Mylan N.V.'
+p883
+aS'Nasdaq, Inc.'
+p884
+aS'National Oilwell Varco Inc.'
+p885
+aS'Navient'
+p886
+aS'NetApp'
+p887
+aS'Netflix Inc.'
+p888
+aS'Newell Brands'
+p889
+aS'Newfield Exploration Co'
+p890
+aS'Newmont Mining Corporation'
+p891
+aS'News Corp. Class A'
+p892
+aS'News Corp. Class B'
+p893
+aS'NextEra Energy'
+p894
+aS'Nielsen Holdings'
+p895
+aS'Nike (company)|Nike'
+p896
+aS'NiSource Inc.'
+p897
+aS'Noble Energy Inc'
+p898
+aS'Nordstrom'
+p899
+aS'Norfolk Southern Corp.'
+p900
+aS'Northern Trust Corp.'
+p901
+aS'Northrop Grumman Corp.'
+p902
+aS'NRG Energy'
+p903
+aS'Nucor Corp.'
+p904
+aS'Nvidia Corporation'
+p905
+aS"O'Reilly Automotive"
+p906
+aS'Occidental Petroleum'
+p907
+aS'Omnicom Group'
+p908
+aS'ONEOK'
+p909
+aS'Oracle Corp.'
+p910
+aS'PACCAR Inc.'
+p911
+aS'Parker-Hannifin'
+p912
+aS'Patterson Companies'
+p913
+aS'Paychex Inc.'
+p914
+aS'PayPal'
+p915
+aS'Pentair|Pentair Ltd.'
+p916
+aS"People's United Financial"
+p917
+aS'PepsiCo Inc.'
+p918
+aS'PerkinElmer'
+p919
+aS'Perrigo'
+p920
+aS'Pfizer Inc.'
+p921
+aS'PG&E Corp.'
+p922
+aS'Philip Morris International'
+p923
+aS'Phillips 66'
+p924
+aS'Arizona Public Service#Pinnacle West Capital|Pinnacle West Capital'
+p925
+aS'Pioneer Natural Resources'
+p926
+aS'PNC Financial Services'
+p927
+aS'Polo Ralph Lauren Corp.'
+p928
+aS'PPG Industries'
+p929
+aS'PPL Corp.'
+p930
+aS'Praxair Inc.'
+p931
+aS'The Priceline Group|Priceline.com Inc'
+p932
+aS'Principal Financial Group'
+p933
+aS'Procter & Gamble'
+p934
+aS'Progressive Corp.'
+p935
+aS'Prologis'
+p936
+aS'Prudential Financial'
+p937
+aS'Public Serv. Enterprise Inc.'
+p938
+aS'Public Storage'
+p939
+aS'Pulte Homes Inc.'
+p940
+aS'PVH Corp.'
+p941
+aS'Qorvo'
+p942
+aS'Quanta Services Inc.'
+p943
+aS'QUALCOMM Inc.'
+p944
+aS'Quest Diagnostics'
+p945
+aS'Range Resources|Range Resources Corp.'
+p946
+aS'Raymond James Financial Inc.'
+p947
+aS'Raytheon Co.'
+p948
+aS'Realty Income Corporation'
+p949
+aS'Red Hat Inc.'
+p950
+aS'Regency Centers Corporation'
+p951
+aS'Regeneron'
+p952
+aS'Regions Financial Corp.'
+p953
+aS'Republic Services Inc'
+p954
+aS'Reynolds American Inc.'
+p955
+aS'Robert Half International'
+p956
+aS'Rockwell Automation Inc.'
+p957
+aS'Rockwell Collins'
+p958
+aS'Roper Technologies'
+p959
+aS'Ross Stores'
+p960
+aS'Royal Caribbean Cruises Ltd'
+p961
+aS'Ryder System'
+p962
+aS'Salesforce.com'
+p963
+aS'SCANA Corp'
+p964
+aS'Schlumberger Ltd.'
+p965
+aS'Scripps Networks Interactive Inc.'
+p966
+aS'Seagate Technology'
+p967
+aS'Sealed Air Corp.(New)|Sealed Air'
+p968
+aS'Sempra Energy'
+p969
+aS'Sherwin-Williams'
+p970
+aS'Signet Jewelers'
+p971
+aS'Simon Property Group Inc'
+p972
+aS'Skyworks Solutions'
+p973
+aS'SL Green Realty'
+p974
+aS'Snap-On Inc.'
+p975
+aS'Southern Co.'
+p976
+aS'Southwest Airlines'
+p977
+aS'S&P Global, Inc.'
+p978
+aS'Stanley Black & Decker'
+p979
+aS'Staples Inc.'
+p980
+aS'Starbucks Corp.'
+p981
+aS'State Street Corp.'
+p982
+aS'Stericycle Inc'
+p983
+aS'Stryker Corp.'
+p984
+aS'SunTrust Banks'
+p985
+aS'Symantec Corp.'
+p986
+aS'Synchrony Financial'
+p987
+aS'Synopsys Inc.'
+p988
+aS'Sysco Corp.'
+p989
+aS'T. Rowe Price Group'
+p990
+aS'Target Corp.'
+p991
+aS'TE Connectivity|TE Connectivity Ltd.'
+p992
+aS'TechnipFMC'
+p993
+aS'Teradata Corp.'
+p994
+aS'Tesoro Petroleum Co.'
+p995
+aS'Texas Instruments'
+p996
+aS'Textron Inc.'
+p997
+aS'Thermo Fisher Scientific'
+p998
+aS'Tiffany & Co.'
+p999
+aS'Time Warner Inc.'
+p1000
+aS'TJX Companies Inc.'
+p1001
+aS'Torchmark Corp.'
+p1002
+aS'Total System Services'
+p1003
+aS'Tractor Supply Company'
+p1004
+aS'TransDigm Group'
+p1005
+aS'Transocean'
+p1006
+aS'The Travelers Companies Inc.'
+p1007
+aS'TripAdvisor'
+p1008
+aS'Twenty-First Century Fox Class A'
+p1009
+aS'Twenty-First Century Fox Class B'
+p1010
+aS'Tyson Foods'
+p1011
+aS'UDR Inc'
+p1012
+aS'Ulta Beauty|Ulta Salon Cosmetics & Fragrance Inc'
+p1013
+aS'U.S. Bancorp'
+p1014
+aS'Under Armour'
+p1015
+ag1015
+aS'Union Pacific'
+p1016
+aS'United Continental Holdings'
+p1017
+aS'United Health Group Inc.'
+p1018
+aS'United Parcel Service'
+p1019
+aS'United Rentals, Inc.'
+p1020
+aS'United Technologies'
+p1021
+aS'Universal Health Services, Inc.'
+p1022
+aS'Unum Group'
+p1023
+aS'V.F. Corp.'
+p1024
+aS'Valero Energy'
+p1025
+aS'Varian Medical Systems'
+p1026
+aS'Ventas Inc'
+p1027
+aS'Verisign Inc.'
+p1028
+aS'Verisk Analytics'
+p1029
+aS'Verizon Communications'
+p1030
+aS'Vertex Pharmaceuticals Inc'
+p1031
+aS'Viacom Inc.'
+p1032
+aS'Visa Inc.'
+p1033
+aS'Vornado Realty Trust'
+p1034
+aS'Vulcan Materials'
+p1035
+aS'Wal-Mart Stores'
+p1036
+aS'Walgreens Boots Alliance'
+p1037
+aS'The Walt Disney Company'
+p1038
+aS'Waste Management Inc.'
+p1039
+aS'Waters Corporation'
+p1040
+aS'Wec Energy Group Inc'
+p1041
+aS'Wells Fargo'
+p1042
+aS'Welltower Inc.'
+p1043
+aS'Western Digital'
+p1044
+aS'Western Union Co'
+p1045
+aS'WestRock Company'
+p1046
+aS'Weyerhaeuser Corp.'
+p1047
+aS'Whirlpool Corp.'
+p1048
+aS'Whole Foods Market'
+p1049
+aS'Williams Cos.'
+p1050
+aS'Willis Towers Watson'
+p1051
+aS'Wyndham Worldwide'
+p1052
+aS'Wynn Resorts Ltd'
+p1053
+aS'Xcel Energy Inc'
+p1054
+aS'Xerox Corp.'
+p1055
+aS'Xilinx Inc'
+p1056
+aS'XL Capital'
+p1057
+aS'Xylem Inc.'
+p1058
+aS'Yahoo Inc.'
+p1059
+aS'Yum! Brands Inc'
+p1060
+aS'Zimmer Holdings|Zimmer Biomet Holdings'
+p1061
+aS'Zions Bancorp'
+p1062
+aS'Zoetis'
+p1063
+aS'Industrials'
+p1064
+aS'Health Care'
+p1065
+ag1065
+aS'Information Technology'
+p1066
+ag1066
+ag1064
+ag1066
+ag1066
+aS'Consumer Discretionary'
+p1067
+aS'Utilities'
+p1068
+ag1065
+aS'Financials'
+p1069
+ag1069
+ag1065
+aS'Materials'
+p1070
+ag1066
+ag1064
+ag1070
+aS'Real Estate'
+p1071
+ag1065
+ag1064
+ag1065
+ag1066
+ag1068
+ag1069
+ag1066
+ag1066
+aS'Consumer Staples'
+p1072
+ag1067
+ag1068
+ag1064
+ag1068
+ag1069
+ag1069
+ag1071
+ag1068
+ag1069
+ag1065
+ag1064
+ag1065
+ag1066
+aS'Energy'
+p1073
+ag1066
+ag1065
+ag1069
+ag1073
+ag1071
+ag1066
+ag1066
+ag1072
+ag1064
+ag1069
+ag1069
+aS'Telecommunication Services'
+p1074
+ag1066
+ag1066
+ag1067
+ag1067
+ag1071
+ag1070
+ag1073
+ag1070
+ag1069
+ag1069
+ag1065
+ag1065
+ag1069
+ag1065
+ag1067
+ag1069
+ag1067
+ag1065
+ag1069
+ag1069
+ag1064
+ag1067
+ag1071
+ag1065
+ag1065
+ag1066
+ag1072
+ag1064
+ag1066
+ag1073
+ag1072
+ag1069
+ag1065
+ag1069
+ag1067
+ag1067
+ag1064
+ag1071
+ag1067
+ag1065
+ag1065
+ag1068
+ag1074
+ag1065
+ag1070
+ag1069
+ag1067
+ag1073
+ag1073
+ag1067
+ag1069
+ag1072
+ag1065
+ag1073
+ag1069
+ag1064
+ag1066
+ag1069
+ag1069
+ag1066
+ag1072
+ag1069
+ag1068
+ag1067
+ag1072
+ag1066
+ag1072
+ag1067
+ag1069
+ag1072
+ag1073
+ag1073
+ag1068
+ag1072
+ag1065
+ag1066
+ag1072
+ag1072
+ag1071
+ag1066
+ag1064
+ag1064
+ag1072
+ag1067
+ag1065
+ag1067
+ag1065
+ag1064
+ag1067
+ag1064
+ag1065
+ag1073
+ag1071
+ag1069
+ag1067
+ag1067
+ag1067
+ag1067
+ag1067
+ag1068
+ag1064
+ag1070
+ag1072
+ag1068
+ag1070
+ag1068
+ag1066
+ag1069
+ag1070
+ag1064
+ag1066
+ag1070
+ag1068
+ag1065
+ag1066
+ag1064
+ag1068
+ag1065
+ag1073
+ag1073
+ag1064
+ag1071
+ag1071
+ag1071
+ag1072
+ag1068
+ag1068
+ag1067
+ag1064
+ag1065
+ag1071
+ag1073
+ag1066
+ag1066
+ag1064
+ag1071
+ag1064
+ag1066
+ag1069
+ag1068
+ag1066
+ag1066
+ag1064
+ag1064
+ag1070
+ag1067
+ag1067
+ag1064
+ag1064
+ag1069
+ag1070
+ag1067
+ag1067
+ag1066
+ag1064
+ag1064
+ag1071
+ag1072
+ag1067
+ag1067
+ag1065
+ag1066
+ag1069
+ag1067
+ag1064
+ag1073
+ag1067
+ag1067
+ag1066
+ag1069
+ag1067
+ag1065
+ag1071
+ag1073
+ag1065
+ag1072
+ag1073
+ag1066
+ag1065
+ag1067
+ag1064
+ag1072
+ag1071
+ag1066
+ag1065
+ag1069
+ag1065
+ag1064
+ag1064
+ag1065
+ag1064
+ag1066
+ag1069
+ag1066
+ag1065
+ag1070
+ag1067
+ag1070
+ag1066
+ag1065
+ag1069
+ag1071
+ag1064
+ag1064
+ag1072
+ag1065
+ag1064
+ag1069
+ag1066
+ag1064
+ag1072
+ag1069
+ag1072
+ag1071
+ag1073
+ag1066
+ag1067
+ag1072
+ag1072
+ag1067
+ag1064
+ag1065
+ag1066
+ag1067
+ag1067
+ag1074
+ag1069
+ag1065
+ag1069
+ag1067
+ag1064
+ag1069
+ag1067
+ag1070
+ag1069
+ag1071
+ag1067
+ag1065
+ag1073
+ag1073
+ag1067
+ag1069
+ag1070
+ag1064
+ag1066
+ag1067
+ag1072
+ag1067
+ag1065
+ag1072
+ag1065
+ag1065
+ag1069
+ag1065
+ag1067
+ag1066
+ag1066
+ag1066
+ag1071
+ag1067
+ag1072
+ag1072
+ag1070
+ag1072
+ag1069
+ag1069
+ag1070
+ag1066
+ag1073
+ag1065
+ag1069
+ag1073
+ag1069
+ag1066
+ag1066
+ag1067
+ag1073
+ag1070
+ag1067
+ag1067
+ag1068
+ag1064
+ag1067
+ag1068
+ag1073
+ag1067
+ag1064
+ag1069
+ag1064
+ag1068
+ag1070
+ag1066
+ag1067
+ag1073
+ag1067
+ag1073
+ag1066
+ag1064
+ag1064
+ag1065
+ag1066
+ag1066
+ag1064
+ag1069
+ag1072
+ag1065
+ag1065
+ag1065
+ag1068
+ag1072
+ag1073
+ag1068
+ag1073
+ag1069
+ag1067
+ag1070
+ag1068
+ag1070
+ag1067
+ag1069
+ag1072
+ag1069
+ag1071
+ag1069
+ag1068
+ag1071
+ag1067
+ag1067
+ag1066
+ag1064
+ag1066
+ag1065
+ag1073
+ag1069
+ag1064
+ag1071
+ag1066
+ag1071
+ag1065
+ag1069
+ag1064
+ag1072
+ag1064
+ag1064
+ag1064
+ag1064
+ag1067
+ag1067
+ag1064
+ag1066
+ag1068
+ag1073
+ag1067
+ag1066
+ag1070
+ag1068
+ag1070
+ag1067
+ag1071
+ag1066
+ag1071
+ag1067
+ag1068
+ag1064
+ag1069
+ag1067
+ag1067
+ag1067
+ag1069
+ag1064
+ag1065
+ag1069
+ag1066
+ag1069
+ag1066
+ag1072
+ag1069
+ag1067
+ag1066
+ag1073
+ag1066
+ag1073
+ag1066
+ag1064
+ag1065
+ag1067
+ag1067
+ag1067
+ag1069
+ag1066
+ag1067
+ag1064
+ag1073
+ag1069
+ag1067
+ag1067
+ag1067
+ag1072
+ag1071
+ag1067
+ag1069
+ag1067
+ag1067
+ag1064
+ag1064
+ag1065
+ag1064
+ag1064
+ag1064
+ag1065
+ag1069
+ag1067
+ag1073
+ag1065
+ag1071
+ag1066
+ag1064
+ag1074
+ag1065
+ag1067
+ag1066
+ag1071
+ag1070
+ag1072
+ag1072
+ag1067
+ag1064
+ag1065
+ag1068
+ag1069
+ag1071
+ag1066
+ag1066
+ag1070
+ag1071
+ag1067
+ag1072
+ag1073
+ag1069
+ag1067
+ag1067
+ag1068
+ag1066
+ag1066
+ag1069
+ag1064
+ag1066
+ag1067
+ag1065
+ag1069
+ag1065
+aS'INDS'
+p1075
+aS'HC'
+p1076
+ag1076
+aS'IT'
+p1077
+ag1077
+ag1075
+ag1077
+ag1077
+aS'CD'
+p1078
+aS'UTIL'
+p1079
+ag1076
+aS'FIN'
+p1080
+ag1080
+ag1076
+aS'MAT'
+p1081
+ag1077
+ag1075
+ag1081
+aS'RE'
+p1082
+ag1076
+ag1075
+ag1076
+ag1077
+ag1079
+ag1080
+ag1077
+ag1077
+aS'CS'
+p1083
+ag1078
+ag1079
+ag1075
+ag1079
+ag1080
+ag1080
+ag1082
+ag1079
+ag1080
+ag1076
+ag1075
+ag1076
+ag1077
+aS'EN'
+p1084
+ag1077
+ag1076
+ag1080
+ag1084
+ag1082
+ag1077
+ag1077
+ag1083
+ag1075
+ag1080
+ag1080
+aS'TS'
+p1085
+ag1077
+ag1077
+ag1078
+ag1078
+ag1082
+ag1081
+ag1084
+ag1081
+ag1080
+ag1080
+ag1076
+ag1076
+ag1080
+ag1076
+ag1078
+ag1080
+ag1078
+ag1076
+ag1080
+ag1080
+ag1075
+ag1078
+ag1082
+ag1076
+ag1076
+ag1077
+ag1083
+ag1075
+ag1077
+ag1084
+ag1083
+ag1080
+ag1076
+ag1080
+ag1078
+ag1078
+ag1075
+ag1082
+ag1078
+ag1076
+ag1076
+ag1079
+ag1085
+ag1076
+ag1081
+ag1080
+ag1078
+ag1084
+ag1084
+ag1078
+ag1080
+ag1083
+ag1076
+ag1084
+ag1080
+ag1075
+ag1077
+ag1080
+ag1080
+ag1077
+ag1083
+ag1080
+ag1079
+ag1078
+ag1083
+ag1077
+ag1083
+ag1078
+ag1080
+ag1083
+ag1084
+ag1084
+ag1079
+ag1083
+ag1076
+ag1077
+ag1083
+ag1083
+ag1082
+ag1077
+ag1075
+ag1075
+ag1083
+ag1078
+ag1076
+ag1078
+ag1076
+ag1075
+ag1078
+ag1075
+ag1076
+ag1084
+ag1082
+ag1080
+ag1078
+ag1078
+ag1078
+ag1078
+ag1078
+ag1079
+ag1075
+ag1081
+ag1083
+ag1079
+ag1081
+ag1079
+ag1077
+ag1080
+ag1081
+ag1075
+ag1077
+ag1081
+ag1079
+ag1076
+ag1077
+ag1075
+ag1079
+ag1076
+ag1084
+ag1084
+ag1075
+ag1082
+ag1082
+ag1082
+ag1083
+ag1079
+ag1079
+ag1078
+ag1075
+ag1076
+ag1082
+ag1084
+ag1077
+ag1077
+ag1075
+ag1082
+ag1075
+ag1077
+ag1080
+ag1079
+ag1077
+ag1077
+ag1075
+ag1075
+ag1081
+ag1078
+ag1078
+ag1075
+ag1075
+ag1080
+ag1081
+ag1078
+ag1078
+ag1077
+ag1075
+ag1075
+ag1082
+ag1083
+ag1078
+ag1078
+ag1076
+ag1077
+ag1080
+ag1078
+ag1075
+ag1084
+ag1078
+ag1078
+ag1077
+ag1080
+ag1078
+ag1076
+ag1082
+ag1084
+ag1076
+ag1083
+ag1084
+ag1077
+ag1076
+ag1078
+ag1075
+ag1083
+ag1082
+ag1077
+ag1076
+ag1080
+ag1076
+ag1075
+ag1075
+ag1076
+ag1075
+ag1077
+ag1080
+ag1077
+ag1076
+ag1081
+ag1078
+ag1081
+ag1077
+ag1076
+ag1080
+ag1082
+ag1075
+ag1075
+ag1083
+ag1076
+ag1075
+ag1080
+ag1077
+ag1075
+ag1083
+ag1080
+ag1083
+ag1082
+ag1084
+ag1077
+ag1078
+ag1083
+ag1083
+ag1078
+ag1075
+ag1076
+ag1077
+ag1078
+ag1078
+ag1085
+ag1080
+ag1076
+ag1080
+ag1078
+ag1075
+ag1080
+ag1078
+ag1081
+ag1080
+ag1082
+ag1078
+ag1076
+ag1084
+ag1084
+ag1078
+ag1080
+ag1081
+ag1075
+ag1077
+ag1078
+ag1083
+ag1078
+ag1076
+ag1083
+ag1076
+ag1076
+ag1080
+ag1076
+ag1078
+ag1077
+ag1077
+ag1077
+ag1082
+ag1078
+ag1083
+ag1083
+ag1081
+ag1083
+ag1080
+ag1080
+ag1081
+ag1077
+ag1084
+ag1076
+ag1080
+ag1084
+ag1080
+ag1077
+ag1077
+ag1078
+ag1084
+ag1081
+ag1078
+ag1078
+ag1079
+ag1075
+ag1078
+ag1079
+ag1084
+ag1078
+ag1075
+ag1080
+ag1075
+ag1079
+ag1081
+ag1077
+ag1078
+ag1084
+ag1078
+ag1084
+ag1077
+ag1075
+ag1075
+ag1076
+ag1077
+ag1077
+ag1075
+ag1080
+ag1083
+ag1076
+ag1076
+ag1076
+ag1079
+ag1083
+ag1084
+ag1079
+ag1084
+ag1080
+ag1078
+ag1081
+ag1079
+ag1081
+ag1078
+ag1080
+ag1083
+ag1080
+ag1082
+ag1080
+ag1079
+ag1082
+ag1078
+ag1078
+ag1077
+ag1075
+ag1077
+ag1076
+ag1084
+ag1080
+ag1075
+ag1082
+ag1077
+ag1082
+ag1076
+ag1080
+ag1075
+ag1083
+ag1075
+ag1075
+ag1075
+ag1075
+ag1078
+ag1078
+ag1075
+ag1077
+ag1079
+ag1084
+ag1078
+ag1077
+ag1081
+ag1079
+ag1081
+ag1078
+ag1082
+ag1077
+ag1082
+ag1078
+ag1079
+ag1075
+ag1080
+ag1078
+ag1078
+ag1078
+ag1080
+ag1075
+ag1076
+ag1080
+ag1077
+ag1080
+ag1077
+ag1083
+ag1080
+ag1078
+ag1077
+ag1084
+ag1077
+ag1084
+ag1077
+ag1075
+ag1076
+ag1078
+ag1078
+ag1078
+ag1080
+ag1077
+ag1078
+ag1075
+ag1084
+ag1080
+ag1078
+ag1078
+ag1078
+ag1083
+ag1082
+ag1078
+ag1080
+ag1078
+ag1078
+ag1075
+ag1075
+ag1076
+ag1075
+ag1075
+ag1075
+ag1076
+ag1080
+ag1078
+ag1084
+ag1076
+ag1082
+ag1077
+ag1075
+ag1085
+ag1076
+ag1078
+ag1077
+ag1082
+ag1081
+ag1083
+ag1083
+ag1078
+ag1075
+ag1076
+ag1079
+ag1080
+ag1082
+ag1077
+ag1077
+ag1081
+ag1082
+ag1078
+ag1083
+ag1084
+ag1080
+ag1078
+ag1078
+ag1079
+ag1077
+ag1077
+ag1080
+ag1075
+ag1077
+ag1078
+ag1076
+ag1080
+ag1076
+atp1086
+ba(lp1087
+g17
+(g18
+(dp1088
+g20
+g21
+(g22
+(I0
+tp1089
+g24
+tp1090
+Rp1091
+(I1
+(I4
+tp1092
+g31
+I00
+(lp1093
+g35
+ag36
+ag37
+ag38
+atp1094
+bsg40
+Nstp1095
+Rp1096
+a(dp1097
+S'0.14.1'
+p1098
+(dp1099
+S'axes'
+p1100
+g16
+sS'blocks'
+p1101
+(lp1102
+(dp1103
+S'mgr_locs'
+p1104
+c__builtin__
+slice
+p1105
+(I0
+I4
+I1
+tp1106
+Rp1107
+sS'values'
+p1108
+g53
+sasstp1109
+bsbsS'Tickers'
+p1110
+(lp1111
+S'AGN'
+p1112
+aS'EOG'
+p1113
+aS'WLP'
+p1114
+aS'CPB'
+p1115
+aS'YUM'
+p1116
+aS'JWN'
+p1117
+aS'TAP'
+p1118
+aS'BWA'
+p1119
+aS'WM'
+p1120
+aS'SPG'
+p1121
+aS'FIS'
+p1122
+aS'GT'
+p1123
+aS'GIS'
+p1124
+aS'MJN'
+p1125
+aS'ROP'
+p1126
+aS'GE'
+p1127
+aS'GD'
+p1128
+aS'VAR'
+p1129
+aS'AMZN'
+p1130
+aS'FII'
+p1131
+aS'MAS'
+p1132
+aS'MAR'
+p1133
+aS'MAT'
+p1134
+aS'SNA'
+p1135
+aS'SNI'
+p1136
+aS'XRAY'
+p1137
+aS'JNJ'
+p1138
+aS'XYL'
+p1139
+aS'TSN'
+p1140
+aS'TSO'
+p1141
+aS'BEN'
+p1142
+aS'CMI'
+p1143
+aS'DISCA'
+p1144
+aS'CMG'
+p1145
+aS'CME'
+p1146
+aS'DTE'
+p1147
+aS'PCL'
+p1148
+aS'CMS'
+p1149
+aS'DTV'
+p1150
+aS'VLO'
+p1151
+aS'HUM'
+p1152
+aS'APOL'
+p1153
+aS'LSI'
+p1154
+aS'PCLN'
+p1155
+aS'FSLR'
+p1156
+aS'HCP'
+p1157
+aS'IGT'
+p1158
+aS'K'
+p1159
+aS'FFIV'
+p1160
+aS'BLL'
+p1161
+aS'ORLY'
+p1162
+aS'BLK'
+p1163
+aS'FTI'
+p1164
+aS'HCN'
+p1165
+aS'NFX'
+p1166
+aS'MA'
+p1167
+aS'CBG'
+p1168
+aS'PRGO'
+p1169
+aS'MO'
+p1170
+aS'NOC'
+p1171
+aS'MU'
+p1172
+aS'CBS'
+p1173
+aS'NDAQ'
+p1174
+aS'SE'
+p1175
+aS'MS'
+p1176
+aS'TJX'
+p1177
+aS'NOV'
+p1178
+aS'AMGN'
+p1179
+aS'COST'
+p1180
+aS'FE'
+p1181
+aS'CTL'
+p1182
+aS'ADBE'
+p1183
+aS'DOV'
+p1184
+aS'DOW'
+p1185
+aS'MSFT'
+p1186
+aS'GLW'
+p1187
+aS'SCHW'
+p1188
+aS'BSX'
+p1189
+aS'FCX'
+p1190
+aS'SPLS'
+p1191
+aS'UPS'
+p1192
+aS'WHR'
+p1193
+aS'BBBY'
+p1194
+aS'MDT'
+p1195
+aS'F'
+p1196
+aS'DFS'
+p1197
+aS'CVS'
+p1198
+aS'JEC'
+p1199
+aS'V'
+p1200
+aS'FMC'
+p1201
+aS'AVY'
+p1202
+aS'ALL'
+p1203
+aS'NTAP'
+p1204
+aS'LMT'
+p1205
+aS'MMM'
+p1206
+aS'SO'
+p1207
+aS'JNPR'
+p1208
+aS'MMC'
+p1209
+aS'WEC'
+p1210
+aS'DPS'
+p1211
+aS'IBM'
+p1212
+aS'BAX'
+p1213
+aS'CAT'
+p1214
+aS'CAH'
+p1215
+aS'BAC'
+p1216
+aS'CAM'
+p1217
+aS'GS'
+p1218
+aS'AFL'
+p1219
+aS'CAG'
+p1220
+aS'LM'
+p1221
+aS'LH'
+p1222
+aS'HIG'
+p1223
+aS'CELG'
+p1224
+aS'A'
+p1225
+aS'ABC'
+p1226
+aS'ZION'
+p1227
+aS'STI'
+p1228
+aS'STJ'
+p1229
+aS'STT'
+p1230
+aS'ABT'
+p1231
+aS'XOM'
+p1232
+aS'STX'
+p1233
+aS'STZ'
+p1234
+aS'CFN'
+p1235
+aS'CERN'
+p1236
+aS'PNR'
+p1237
+aS'CMA'
+p1238
+aS'IVZ'
+p1239
+aS'LO'
+p1240
+aS'PNC'
+p1241
+aS'VFC'
+p1242
+aS'EIX'
+p1243
+aS'XLNX'
+p1244
+aS'AON'
+p1245
+aS'RAI'
+p1246
+aS'PRU'
+p1247
+aS'RF'
+p1248
+aS'RL'
+p1249
+aS'URBN'
+p1250
+aS'CHK'
+p1251
+aS'L'
+p1252
+aS'HRS'
+p1253
+aS'HRL'
+p1254
+aS'MRO'
+p1255
+aS'MRK'
+p1256
+aS'HRB'
+p1257
+aS'IPG'
+p1258
+aS'RHT'
+p1259
+aS'TYC'
+p1260
+aS'RHI'
+p1261
+aS'APH'
+p1262
+aS'ROST'
+p1263
+aS'APC'
+p1264
+aS'APA'
+p1265
+aS'APD'
+p1266
+aS'KSS'
+p1267
+aS'WFM'
+p1268
+aS'WFC'
+p1269
+aS'IFF'
+p1270
+aS'NVDA'
+p1271
+aS'LUK'
+p1272
+aS'RTN'
+p1273
+aS'BMS'
+p1274
+aS'BMY'
+p1275
+aS'SYMC'
+p1276
+aS'EL'
+p1277
+aS'PAYX'
+p1278
+aS'OXY'
+p1279
+aS'SHW'
+p1280
+aS'GCI'
+p1281
+aS'ED'
+p1282
+aS'EA'
+p1283
+aS'CSC'
+p1284
+aS'CSX'
+p1285
+aS'EW'
+p1286
+aS'BTU'
+p1287
+aS'LUV'
+p1288
+aS'MUR'
+p1289
+aS'ATI'
+p1290
+aS'WYN'
+p1291
+aS'JBL'
+p1292
+aS'ADSK'
+p1293
+aS'WPX'
+p1294
+aS'ECL'
+p1295
+aS'SNDK'
+p1296
+aS'SEE'
+p1297
+aS'DGX'
+p1298
+aS'NUE'
+p1299
+aS'PCP'
+p1300
+aS'EXPE'
+p1301
+aS'EXPD'
+p1302
+aS'UNP'
+p1303
+aS'BHI'
+p1304
+aS'ETFC'
+p1305
+aS'DUK'
+p1306
+aS'XL'
+p1307
+aS'CLF'
+p1308
+aS'R'
+p1309
+aS'CLX'
+p1310
+aS'FDO'
+p1311
+aS'BBY'
+p1312
+aS'UNH'
+p1313
+aS'FRX'
+p1314
+aS'TRIP'
+p1315
+aS'OMC'
+p1316
+aS'KO'
+p1317
+aS'VMC'
+p1318
+aS'NU'
+p1319
+aS'KR'
+p1320
+aS'LNC'
+p1321
+aS'KEY'
+p1322
+aS'ITW'
+p1323
+aS'KLAC'
+p1324
+aS'DO'
+p1325
+aS'SWK'
+p1326
+aS'RSG'
+p1327
+aS'WYNN'
+p1328
+aS'SWN'
+p1329
+aS'DF'
+p1330
+aS'DG'
+p1331
+aS'DD'
+p1332
+aS'DE'
+p1333
+aS'SWY'
+p1334
+aS'PNW'
+p1335
+aS'TGT'
+p1336
+aS'HBAN'
+p1337
+aS'BIG'
+p1338
+aS'BIIB'
+p1339
+aS'PCG'
+p1340
+aS'POM'
+p1341
+aS'AKAM'
+p1342
+aS'DHI'
+p1343
+aS'M'
+p1344
+aS'INTU'
+p1345
+aS'BEAM'
+p1346
+aS'ALXN'
+p1347
+aS'DHR'
+p1348
+aS'SLB'
+p1349
+aS'MCO'
+p1350
+aS'MCK'
+p1351
+aS'MCD'
+p1352
+aS'NRG'
+p1353
+aS'PBCT'
+p1354
+aS'VTR'
+p1355
+aS'AXP'
+p1356
+aS'NFLX'
+p1357
+aS'EXC'
+p1358
+aS'AAPL'
+p1359
+aS'SJM'
+p1360
+aS'SRCL'
+p1361
+aS'WU'
+p1362
+aS'WY'
+p1363
+aS'BBT'
+p1364
+aS'VNO'
+p1365
+aS'HSP'
+p1366
+aS'HST'
+p1367
+aS'HSY'
+p1368
+aS'CTSH'
+p1369
+aS'HAL'
+p1370
+aS'FITB'
+p1371
+aS'EQR'
+p1372
+aS'EQT'
+p1373
+aS'GPC'
+p1374
+aS'PDCO'
+p1375
+aS'X'
+p1376
+aS'HAR'
+p1377
+aS'THC'
+p1378
+aS'PH'
+p1379
+aS'GPS'
+p1380
+aS'PHM'
+p1381
+aS'SYK'
+p1382
+aS'BRCM'
+p1383
+aS'KIM'
+p1384
+aS'SYY'
+p1385
+aS'AEP'
+p1386
+aS'AES'
+p1387
+aS'AET'
+p1388
+aS'EMC'
+p1389
+aS'EMN'
+p1390
+aS'ESRX'
+p1391
+aS'AMAT'
+p1392
+aS'FTR'
+p1393
+aS'AEE'
+p1394
+aS'CTAS'
+p1395
+aS'EMR'
+p1396
+aS'FDX'
+p1397
+aS'CRM'
+p1398
+aS'NWSA'
+p1399
+aS'PX'
+p1400
+aS'PG'
+p1401
+aS'CTXS'
+p1402
+aS'PM'
+p1403
+aS'EFX'
+p1404
+aS'C'
+p1405
+aS'S'
+p1406
+aS'QCOM'
+p1407
+aS'XRX'
+p1408
+aS'ANF'
+p1409
+aS'MOS'
+p1410
+aS'PSA'
+p1411
+aS'PSX'
+p1412
+aS'MON'
+p1413
+aS'JOY'
+p1414
+aS'MCHP'
+p1415
+aS'ALTR'
+p1416
+aS'ETR'
+p1417
+aS'COP'
+p1418
+aS'HES'
+p1419
+aS'DVN'
+p1420
+aS'KMB'
+p1421
+aS'COV'
+p1422
+aS'DVA'
+p1423
+aS'KMI'
+p1424
+aS'GWW'
+p1425
+aS'FISV'
+p1426
+aS'COG'
+p1427
+aS'COF'
+p1428
+aS'COH'
+p1429
+aS'PEG'
+p1430
+aS'ETN'
+p1431
+aS'COL'
+p1432
+aS'BCR'
+p1433
+aS'KMX'
+p1434
+aS'DLTR'
+p1435
+aS'QEP'
+p1436
+aS'CI'
+p1437
+aS'JDSU'
+p1438
+aS'CL'
+p1439
+aS'WAG'
+p1440
+aS'CB'
+p1441
+aS'CA'
+p1442
+aS'CF'
+p1443
+aS'WAT'
+p1444
+aS'CHRW'
+p1445
+aS'TDC'
+p1446
+aS'SBUX'
+p1447
+aS'PLD'
+p1448
+aS'HCBK'
+p1449
+aS'PLL'
+p1450
+aS'CMCSA'
+p1451
+aS'FHN'
+p1452
+aS'MKC'
+p1453
+aS'GNW'
+p1454
+aS'CVX'
+p1455
+aS'AIZ'
+p1456
+aS'BXP'
+p1457
+aS'AIV'
+p1458
+aS'KRFT'
+p1459
+aS'LOW'
+p1460
+aS'TXT'
+p1461
+aS'AIG'
+p1462
+aS'CVC'
+p1463
+aS'DIS'
+p1464
+aS'PPG'
+p1465
+aS'MNST'
+p1466
+aS'NSC'
+p1467
+aS'GAS'
+p1468
+aS'PPL'
+p1469
+aS'OKE'
+p1470
+aS'GOOG'
+p1471
+aS'JCP'
+p1472
+aS'IP'
+p1473
+aS'HPQ'
+p1474
+aS'IR'
+p1475
+aS'IRM'
+p1476
+aS'MTB'
+p1477
+aS'UTX'
+p1478
+aS'JCI'
+p1479
+aS'PWR'
+p1480
+aS'CSCO'
+p1481
+aS'ARG'
+p1482
+aS'WDC'
+p1483
+aS'BA'
+p1484
+aS'BK'
+p1485
+aS'DRI'
+p1486
+aS'CCL'
+p1487
+aS'CCI'
+p1488
+aS'CCE'
+p1489
+aS'TIF'
+p1490
+aS'FLIR'
+p1491
+aS'MYL'
+p1492
+aS'LYB'
+p1493
+aS'SIAL'
+p1494
+aS'D'
+p1495
+aS'PEP'
+p1496
+aS'WMT'
+p1497
+aS'VZ'
+p1498
+aS'T'
+p1499
+aS'WMB'
+p1500
+aS'VRSN'
+p1501
+aS'OI'
+p1502
+aS'CINF'
+p1503
+aS'NTRS'
+p1504
+aS'MWV'
+p1505
+aS'ESV'
+p1506
+aS'HP'
+p1507
+aS'FLR'
+p1508
+aS'HD'
+p1509
+aS'LLY'
+p1510
+aS'TMK'
+p1511
+aS'INTC'
+p1512
+aS'SCG'
+p1513
+aS'AMD'
+p1514
+aS'LLL'
+p1515
+aS'NWL'
+p1516
+aS'AMP'
+p1517
+aS'TMO'
+p1518
+aS'AMT'
+p1519
+aS'LRCX'
+p1520
+aS'CNX'
+p1521
+aS'YHOO'
+p1522
+aS'PBI'
+p1523
+aS'BDX'
+p1524
+aS'TRV'
+p1525
+aS'MPC'
+p1526
+aS'SLM'
+p1527
+aS'AVP'
+p1528
+aS'MDLZ'
+p1529
+aS'AVB'
+p1530
+aS'NEM'
+p1531
+aS'FOSL'
+p1532
+aS'ACE'
+p1533
+aS'NEE'
+p1534
+aS'ACN'
+p1535
+aS'NI'
+p1536
+aS'TEL'
+p1537
+aS'NBR'
+p1538
+aS'RRD'
+p1539
+aS'RRC'
+p1540
+aS'NE'
+p1541
+aS'FAST'
+p1542
+aS'TEG'
+p1543
+aS'NBL'
+p1544
+aS'TER'
+p1545
+aS'FLS'
+p1546
+aS'ADT'
+p1547
+aS'LLTC'
+p1548
+aS'ADP'
+p1549
+aS'DNB'
+p1550
+aS'GILD'
+p1551
+aS'GME'
+p1552
+aS'RDC'
+p1553
+aS'DNR'
+p1554
+aS'JPM'
+p1555
+aS'ADM'
+p1556
+aS'ADI'
+p1557
+aS'VIAB'
+p1558
+aS'LEG'
+p1559
+aS'XEL'
+p1560
+aS'WIN'
+p1561
+aS'LEN'
+p1562
+aS'EBAY'
+p1563
+aS'MET'
+p1564
+aS'TWC'
+p1565
+aS'USB'
+p1566
+aS'AZO'
+p1567
+aS'MSI'
+p1568
+aS'TWX'
+p1569
+aS'PCAR'
+p1570
+aS'TXN'
+p1571
+aS'PETM'
+p1572
+aS'SRE'
+p1573
+aS'ORCL'
+p1574
+aS'TE'
+p1575
+aS'PXD'
+p1576
+aS'AA'
+p1577
+aS'HOG'
+p1578
+aS'PKI'
+p1579
+aS'CNP'
+p1580
+aS'HON'
+p1581
+aS'DELL'
+p1582
+aS'ICE'
+p1583
+aS'AN'
+p1584
+aS'HOT'
+p1585
+aS'ROK'
+p1586
+aS'TROW'
+p1587
+aS'ISRG'
+p1588
+aS'PFE'
+p1589
+aS'NKE'
+p1590
+aS'PFG'
+p1591
+aS'TSS'
+p1592
+as.
