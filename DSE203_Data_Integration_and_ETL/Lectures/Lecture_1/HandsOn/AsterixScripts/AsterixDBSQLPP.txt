@@ -1,0 +1,6 @@
+use  TinySocial;
+SELECT VALUE user FROM GleambookUsers user; 
+
+SELECT VALUE user
+FROM GleambookUsers user
+WHERE user.id = 6; 

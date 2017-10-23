@@ -1,0 +1,66 @@
+drop dataverse TinySocial if exists;
+create dataverse TinySocial;
+use dataverse TinySocial;
+
+create type ChirpUserType as {
+        screenName: string,
+        lang: string,
+        friendsCount: int,
+        statusesCount: int,
+        name: string,
+        followersCount: int
+    };
+
+create type ChirpMessageType as closed {
+        chirpId: string,
+        user: ChirpUserType,
+        senderLocation: point?,
+        sendTime: datetime,
+        referredTopics: {{ string }},
+        messageText: string
+    };
+
+create type EmploymentType as closed {
+        organizationName: string,
+        startDate: date,
+        endDate: date?
+    };
+
+create type GleambookUserType as  open {
+        id: int,
+        alias: string,
+        name: string,
+        userSince: datetime,
+        friendIds: {{ int }},
+        employment: [EmploymentType]
+    };
+
+create type GleambookMessageType as {
+        messageId: int,
+        authorId: int,
+        inResponseTo: int?,
+        senderLocation: point?,
+        message: string
+    };
+
+	
+create dataset GleambookUsers(GleambookUserType)
+	primary key id;
+
+create dataset GleambookMessages(GleambookMessageType)
+	primary key messageId;
+
+create dataset ChirpUsers(ChirpUserType)
+	primary key screenName;
+
+create dataset ChirpMessages(ChirpMessageType)
+	primary key chirpId
+    hints(cardinality=100);
+
+create index gbUserSinceIdx on GleambookUsers(userSince);
+create index gbAuthorIdx on GleambookMessages(authorId) type btree;
+create index gbSenderLocIndex on GleambookMessages(senderLocation) type rtree;
+create index gbMessageIdx on GleambookMessages(message) type keyword;
+
+for $ds in dataset Metadata.Dataset return $ds;
+for $ix in dataset Metadata.Index return $ix;
