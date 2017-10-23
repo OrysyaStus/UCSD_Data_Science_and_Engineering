@@ -1,0 +1,26 @@
+Query examples
+
+I. Get the title of the scenes, to get text only add /text():
+<result>{
+	doc("j_caesar.xml")//PLAY/ACT/SCENE/TITLE/text()
+}</result>
+
+This gives the same result as above, but it is very expensive
+<result>{
+	doc("j_caesar.xml")//SCENE/TITLE
+}</result>
+
+This gives the same result as above, but less efficient since it gets all results and then filters
+<result>{
+	doc("j_caesar.xml")//TITLE[parent::SCENE]
+}</result>
+
+II. Titles of scenes where Caesar speaks
+<result>{
+	doc("j_caesar.xml")//SCENE/TITLE[../SPEECH/SPEAKER/text() = "CAESAR"]
+}</result>
+
+Same result but filter down first and then return titles
+<result>{
+	doc("j_caesar.xml")//SCENE[SPEECH/SPEAKER/text() = "CAESAR"]/TITLE
+}</result>
