@@ -1,0 +1,78 @@
+find all available relationship names:
+
+MATCH ()-[r]-()
+RETURN DISTINCT type(r)
+
+
+find all actors:
+
+MATCH (a)-[:ACTED_IN]-(:Movie)
+RETURN DISTINCT a.name
+
+
+for each actor, count the movies they played in:
+
+MATCH (a)-[:ACTED_IN]-(m:Movie)
+RETURN a.name, count (m) AS cnt
+
+
+find all directors:
+
+MATCH (d)-[:PRODUCED]-(:Movie)
+RETURN DISTINCT d.name
+
+
+LIST processing:
+
+for each movie m and actor a performing multiple roles in m,
+display these roles by printing "was role1, was role2, ...":
+
+MATCH (a)-[e:ACTED_IN]-(m:Movie)
+WHERE size (e.roles) > 1
+RETURN m.title, a.name, [r in e.roles | "was " + r]
+
+
+for each movie m and actor a performing multiple roles in m,
+display  "a was role1 in m, a  was role2 in m, ...":
+
+MATCH (a)-[e:ACTED_IN]-(m:Movie)
+WHERE size (e.roles) > 1
+RETURN [r in e.roles | a.name + " was " + r + " in " + m.title]
+
+
+for each movie m and actor a performing multiple roles in m,
+display  "a was role1 and was role2  ... in the movie m":
+
+MATCH (a)-[e:ACTED_IN]-(m:Movie)
+WHERE size (e.roles) > 1
+RETURN reduce (s=a.name + " was " + head (e.roles), r in tail (e.roles) | s + " and was " + r) + " in the movie " + m.title
+
+
+
+record fact that two persons know each other when they
+have worked in the same movie:
+
+MATCH (p1:Person)-[]->(m:Movie)<-[]-(p2:Person)
+CREATE (p1)-[:KNOWS]->(p2)
+
+
+find persons at most 3 degrees of separation away from Kevin Bacon:
+
+MATCH (kevin:Person {name:'Kevin Bacon'})-[:KNOWS*1..3]-(p:Person)
+RETURN p.name
+
+
+find persons at most 3 degrees of separation away from Kevin Bacon,
+and display their degree of separation (order by increasing distance)
+
+MATCH path = shortestPath ((kevin:Person {name:'Kevin Bacon'})-[:KNOWS*1..3]-(p:Person))
+WHERE p <> kevin
+RETURN p.name AS person, length (path) AS degree
+ORDER BY degree
+
+
+
+
+
+
+
